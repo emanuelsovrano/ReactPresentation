@@ -1,28 +1,16 @@
 import * as React from "react";
 import './Square.less';
 
-export interface ISquareState {
+export interface ISquareProps {
     value: String;
+    onClick: () => void;
 }
 
-export class Square extends React.Component<{}, ISquareState> {
-    constructor(props:any, value:String) {
-        super(props);
-        this.state = {
-            value: null
-        };
-    }
-
-    private handleClick(sign:String){
-        this.setState({
-            value: sign
-        });
-    }
-
+export class Square extends React.Component<ISquareProps, {}> {
     public render(): JSX.Element {
         return (
-            <button className="square" onClick={() => this.handleClick("X")}>
-                {this.state.value}
+            <button className="square" onClick={() => this.props.onClick()}>
+                {this.props.value}
             </button>
         );
     }

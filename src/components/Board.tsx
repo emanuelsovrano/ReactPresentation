@@ -2,20 +2,17 @@ import * as React from "react";
 import { Square } from "./Square";
 import './Board.less';
 
-export interface IBoardState {
-    squares: String[];
+export interface IBoardProps {
+    squares: any[];
+    onClick: (i:number) => void;
 }
 
-export class Board extends React.Component<{}, IBoardState> {
-    constructor(props:any) {
-        super(props);
-        this.state = {
-            squares: [null,null,null,null,null,null,null,null,null]
-        };
-    }
-
-    renderSquare(i: number) {
-        return <Square/>;
+export class Board extends React.Component<IBoardProps, {}> {
+    renderSquare(i: number): JSX.Element {
+        return <Square
+            value={this.props.squares[i]}
+            onClick={() => this.props.onClick(i)}
+        />
     }
 
     public render(): JSX.Element {
