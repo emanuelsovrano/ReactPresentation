@@ -2,8 +2,9 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 
 import { Hello } from "./components/Hello";
+import { Game } from "./components/Game";
 
 ReactDOM.render(
-    <Hello compiler="TypeScript" framework="React" />,
-    document.getElementById("example")
+    <Game />,
+    document.getElementById("content")
 );
