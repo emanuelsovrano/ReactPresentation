@@ -778,7 +778,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, ".square {\n  background: #fff;\n  border: 1px solid #999;\n  float: left;\n  font-size: 24px;\n  font-weight: bold;\n  line-height: 34px;\n  height: 34px;\n  margin-right: -1px;\n  margin-top: -1px;\n  padding: 0;\n  text-align: center;\n  width: 34px;\n}\n.square:focus {\n  outline: none;\n}\n.kbd-navigation .square:focus {\n  background: #ddd;\n}\nbody {\n  font: 14px \"Century Gothic\", Futura, sans-serif;\n  margin: 20px;\n}\nol,\nul {\n  padding-left: 30px;\n}\n", ""]);
+exports.push([module.i, ".kbd-navigation {\n  background: #ddd;\n}\nbody {\n  font: 14px \"Century Gothic\", Futura, sans-serif;\n  margin: 20px;\n}\nol,\nul {\n  padding-left: 30px;\n}\n.square {\n  background: #fff;\n  border: 1px solid #999;\n  float: left;\n  font-size: 24px;\n  font-weight: bold;\n  line-height: 34px;\n  height: 34px;\n  margin-right: -1px;\n  margin-top: -1px;\n  padding: 0;\n  text-align: center;\n  width: 34px;\n}\n.square:focus {\n  outline: none;\n  background: #ddd;\n}\n", ""]);
 
 // exports
 
@@ -918,7 +918,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, ".board-status {\n  margin-bottom: 10px;\n}\n.board-row:after {\n  clear: both;\n  content: \"\";\n  display: table;\n}\nbody {\n  font: 14px \"Century Gothic\", Futura, sans-serif;\n  margin: 20px;\n}\nol,\nul {\n  padding-left: 30px;\n}\n", ""]);
+exports.push([module.i, ".kbd-navigation {\n  background: #ddd;\n}\nbody {\n  font: 14px \"Century Gothic\", Futura, sans-serif;\n  margin: 20px;\n}\nol,\nul {\n  padding-left: 30px;\n}\n.board-status {\n  margin-bottom: 10px;\n}\n.board-row:after {\n  clear: both;\n  content: \"\";\n  display: table;\n}\n", ""]);
 
 // exports
 
@@ -963,7 +963,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, ".game {\n  display: flex;\n  flex-direction: row;\n}\n.game-info {\n  margin-left: 20px;\n}\nbody {\n  font: 14px \"Century Gothic\", Futura, sans-serif;\n  margin: 20px;\n}\nol,\nul {\n  padding-left: 30px;\n}\n", ""]);
+exports.push([module.i, ".kbd-navigation {\n  background: #ddd;\n}\nbody {\n  font: 14px \"Century Gothic\", Futura, sans-serif;\n  margin: 20px;\n}\nol,\nul {\n  padding-left: 30px;\n}\n.game {\n  display: flex;\n  flex-direction: row;\n}\n.game-info {\n  margin-left: 20px;\n}\n", ""]);
 
 // exports
 

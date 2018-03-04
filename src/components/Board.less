@@ -1,20 +1,15 @@
+@import "../Styles";
+
 .board {
 
     &-status {
         margin-bottom: 10px;
     }
-    &-row:after {
-        clear: both;
-        content: "";
-        display: table;
+    &-row{
+        &:after{
+            clear: both;
+            content: "";
+            display: table;
+        }
     }
-}
-
-body {
-    font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 20px;
-}
-  
-ol, ul {
-    padding-left: 30px;
 }
